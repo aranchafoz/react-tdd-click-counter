@@ -29,7 +29,7 @@ class App extends Component {
     const { counter, decrementError } = this.state;
     return (
       <div data-test="component-app">
-        <h1 data-test="counter-display">The counter is currently {counter}</h1>
+        <h1 data-test="counter-display">The counter is {counter}</h1>
         <div className="buttons-container">
           <button
             data-test="decrement-button"
